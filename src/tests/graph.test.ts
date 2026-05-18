@@ -10,6 +10,6 @@ describe("graph conversion", () => {
 
     expect(nodes).toHaveLength(appData.characters.length);
     expect(edges).toHaveLength(appData.relationships.length);
+    expect(nodes.every((element) => "avatar" in element.data)).toBe(true);
   });
 });
-

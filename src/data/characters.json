@@ -3,6 +3,7 @@
     "id": "jonathan-joestar",
     "name": "乔纳森·乔斯达",
     "romanizedName": "Jonathan Joestar",
+    "avatar": "/avatars/jonathan-joestar.svg",
     "part": [1],
     "family": "Joestar",
     "role": "protagonist",
@@ -15,6 +16,7 @@
     "id": "dio-brando",
     "name": "迪奥·布兰度",
     "romanizedName": "Dio Brando",
+    "avatar": "/avatars/dio-brando.svg",
     "part": [1, 3],
     "family": "Brando",
     "role": "antagonist",
@@ -27,6 +29,7 @@
     "id": "joseph-joestar",
     "name": "乔瑟夫·乔斯达",
     "romanizedName": "Joseph Joestar",
+    "avatar": "/avatars/joseph-joestar.svg",
     "part": [2, 3],
     "family": "Joestar",
     "role": "ally",
@@ -39,6 +42,7 @@
     "id": "jotaro-kujo",
     "name": "空条承太郎",
     "romanizedName": "Jotaro Kujo",
+    "avatar": "/avatars/jotaro-kujo.svg",
     "part": [3, 4, 6],
     "family": "Joestar",
     "role": "protagonist",
@@ -51,6 +55,7 @@
     "id": "giorno-giovanna",
     "name": "乔鲁诺·乔巴拿",
     "romanizedName": "Giorno Giovanna",
+    "avatar": "/avatars/giorno-giovanna.svg",
     "part": [5],
     "family": "Brando",
     "role": "protagonist",
@@ -63,6 +68,7 @@
     "id": "gyro-zeppeli",
     "name": "杰洛·齐贝林",
     "romanizedName": "Gyro Zeppeli",
+    "avatar": "/avatars/gyro-zeppeli.svg",
     "part": [7],
     "family": "Zeppeli",
     "role": "mentor",
@@ -75,6 +81,7 @@
     "id": "johnny-joestar",
     "name": "乔尼·乔斯达",
     "romanizedName": "Johnny Joestar",
+    "avatar": "/avatars/johnny-joestar.svg",
     "part": [7],
     "family": "Joestar",
     "role": "protagonist",
@@ -84,4 +91,3 @@
     "tags": ["Joestar", "黄金旋回", "平行世界"]
   }
 ]
-

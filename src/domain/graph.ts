@@ -8,6 +8,7 @@ export function toCytoscapeElements(
     data: {
       id: character.id,
       label: character.name,
+      avatar: character.avatar,
       family: character.family,
       role: character.role,
       part: character.part.join(", "),
@@ -51,4 +52,3 @@ export function findRelationshipsForCharacter(
       relationship.source === characterId || relationship.target === characterId,
   );
 }
-

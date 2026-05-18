@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 12 68 68" role="img" aria-label="Gyro Zeppeli original avatar">
+  <rect width="96" height="96" rx="48" fill="#204a3d"/>
+  <circle cx="48" cy="45" r="18" fill="#dfb489"/>
+  <path d="M22 31h52l-5 15H27l-5-15Z" fill="#cf9c2f"/>
+  <path d="M32 25h32l7 8H25l7-8Z" fill="#d6a928"/>
+  <path d="M37 31c5 5 17 5 22 0" stroke="#204a3d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M26 79c6-17 14-25 22-25s16 8 22 25" fill="#2aae9f"/>
+  <path d="M36 60c8 5 16 5 24 0" stroke="#204a3d" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="40" cy="46" r="2.3" fill="#204a3d"/>
+  <circle cx="56" cy="46" r="2.3" fill="#204a3d"/>
+</svg>

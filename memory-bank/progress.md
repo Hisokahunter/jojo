@@ -63,10 +63,24 @@
   - Validation: `npm test` passed with 5 test files and 10 tests.
 - Step 30: Added Playwright smoke tests.
   - Validation: `npm run test:e2e` passed with 4 tests.
+- Step 31: Completed final acceptance pass.
+  - Validation: `npm run build` passed.
+  - Validation: `npm test` passed with 5 test files and 10 tests.
+  - Validation: `npm run test:e2e` passed with 4 desktop/mobile smoke tests after rerunning outside the sandbox because Playwright worker spawning was blocked by `EPERM`.
+  - Status: Awaiting user verification before Step 32.
+- Visual update: Replaced geometric character node bodies with original avatar-style SVG portraits.
+  - Validation: `npm run build` passed.
+  - Validation: `npm test` passed with 5 test files and 10 tests.
+  - Validation: `npm run test:e2e` passed with 4 desktop/mobile smoke tests.
+  - Validation: `GET /avatars/jonathan-joestar.svg` returned HTTP 200 from the local dev server.
+- Deployment setup: Added GitHub Pages deployment configuration.
+  - Validation: `npm run build` passed.
+  - Validation: `npm test` passed with 5 test files and 10 tests.
+  - Validation: `npm run test:e2e` passed with 4 desktop/mobile smoke tests.
+  - Validation pending: push workflow to GitHub and confirm Pages deployment.
 
 ## Remaining
 
-- Step 31: Final manual acceptance pass.
 - Step 32: Continue updating architecture after future milestones.
 
 ## Verification Commands

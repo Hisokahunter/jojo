@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 12 68 68" role="img" aria-label="Giorno Giovanna original avatar">
+  <rect width="96" height="96" rx="48" fill="#39214d"/>
+  <circle cx="48" cy="42" r="18" fill="#f0c79b"/>
+  <path d="M25 40c5-24 41-26 47-2-7-5-14-6-20-2-9-6-17-5-27 4Z" fill="#e0bf35"/>
+  <circle cx="34" cy="32" r="7" fill="#d6a928"/>
+  <circle cx="48" cy="27" r="7" fill="#d6a928"/>
+  <circle cx="62" cy="32" r="7" fill="#d6a928"/>
+  <path d="M27 78c5-16 13-24 21-24s16 8 21 24" fill="#7a3f8f"/>
+  <path d="M36 61c9 4 15 4 24 0" stroke="#39214d" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="40" cy="44" r="2.3" fill="#39214d"/>
+  <circle cx="56" cy="44" r="2.3" fill="#39214d"/>
+</svg>

@@ -21,6 +21,7 @@ export type Character = {
   id: string;
   name: string;
   romanizedName: string;
+  avatar: string;
   part: number[];
   family: CharacterFamily;
   role: CharacterRole;
@@ -63,4 +64,3 @@ export type ValidatedData = {
   relationships: Relationship[];
   collectibles: Collectible[];
 };
-

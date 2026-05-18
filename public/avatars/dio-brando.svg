@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 12 68 68" role="img" aria-label="Dio Brando original avatar">
+  <rect width="96" height="96" rx="48" fill="#4b1828"/>
+  <circle cx="48" cy="43" r="19" fill="#f1c48e"/>
+  <path d="M24 39c4-23 40-30 50-2-10-4-18-3-27 5-6-6-13-7-23-3Z" fill="#d6a928"/>
+  <path d="M27 78c5-17 14-25 21-25s16 8 21 25" fill="#a63d40"/>
+  <path d="M31 27h34l-5 11H36l-5-11Z" fill="#f0d55e"/>
+  <path d="M36 61c8 5 16 5 24 0" stroke="#4b1828" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="40" cy="44" r="2.5" fill="#4b1828"/>
+  <circle cx="56" cy="44" r="2.5" fill="#4b1828"/>
+</svg>

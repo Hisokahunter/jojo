@@ -8,6 +8,7 @@ export const characterSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   romanizedName: z.string().min(1),
+  avatar: z.string().min(1),
   part: z.array(z.number().int().min(1).max(9)).min(1),
   family: z.enum(["Joestar", "Brando", "Zeppeli", "Other"]),
   role: z.enum(["protagonist", "antagonist", "ally", "mentor", "other"]),
@@ -72,4 +73,3 @@ export const appData = validateAppData({
   relationships,
   collectibles,
 });
-

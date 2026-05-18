@@ -298,7 +298,7 @@ Current implementation boundaries:
 Implemented first-version behavior:
 
 - Static validated data for core Part 1, Part 3, Part 5, and Part 7 characters.
-- Cytoscape-rendered 2D relationship graph.
+- Cytoscape-rendered 2D relationship graph using original SVG avatar portraits for character nodes.
 - Search input for Chinese and romanized character matching.
 - Part filter and relationship type filter.
 - Character detail panel.
@@ -311,3 +311,10 @@ Verification status:
 - `npm run build` passes.
 - `npm test` passes.
 - `npm run test:e2e` passes after installing Playwright Chromium.
+
+Deployment:
+
+- Free hosting target: GitHub Pages.
+- Deployment method: GitHub Actions workflow at `.github/workflows/deploy.yml`.
+- Vite base path: `/jojo/`, matching the repository name for project Pages.
+- Production URL after Pages is enabled and the workflow succeeds: `https://hisokahunter.github.io/jojo/`.
