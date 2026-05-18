@@ -1,0 +1,32 @@
+---
+description: UI, responsive behavior, accessibility, and testing guidance.
+globs:
+  - "src/components/**/*"
+  - "src/styles/**/*"
+  - "src/tests/**/*"
+  - "tests/**/*"
+alwaysApply: false
+---
+
+# UI, Accessibility, And Testing Rules
+
+## UI
+
+- The first screen should be the usable relationship graph, not a marketing landing page.
+- Keep dense operational UI clear and restrained.
+- Use the visual rules from `memory-bank/@game-design-document.md`.
+- Avoid text overlap, button overflow, and panels that cover core graph controls.
+
+## Accessibility
+
+- Do not rely on color alone for relationship types; pair color with line style or labels.
+- Respect reduced-motion preferences.
+- Make important controls keyboard accessible.
+- Provide readable labels for icon-only controls.
+
+## Testing
+
+- Use Vitest for schema, filter, collectible, and graph conversion logic.
+- Use Playwright for at least one smoke test covering load, search, node selection, and detail panel update.
+- Add tests when changing shared domain logic or user-facing interaction behavior.
+

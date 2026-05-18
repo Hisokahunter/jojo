@@ -1,0 +1,10 @@
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-4);
+  background: rgb(0 24 42 / 94%);
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+

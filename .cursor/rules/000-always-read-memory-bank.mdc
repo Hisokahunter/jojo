@@ -1,0 +1,29 @@
+---
+description: Always read required memory-bank documents before writing code.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Always: Required Memory-Bank Reading
+
+# 重要提示
+
+写任何代码前必须完整阅读 `memory-bank/@architecture.md`。该文档包含项目架构、模块边界、状态结构、数据结构和当前实现约束。
+
+写任何代码前必须完整阅读 `memory-bank/@game-design-document.md`。该文档包含网站目标、核心体验、交互规则、视觉规范和验收标准。
+
+每完成一个重大功能或里程碑后，必须更新 `memory-bank/@architecture.md`，确保它继续反映真实代码结构和技术决策。
+
+Before writing, editing, refactoring, generating, or deleting any code, you must fully read:
+
+- `memory-bank/@architecture.md`
+- `memory-bank/@game-design-document.md`
+
+Also read `memory-bank/@tech-stack.md` before adding dependencies, choosing libraries, creating project structure, or changing build/test/deployment behavior.
+
+Do not start coding from assumptions. The architecture document contains the implementation boundaries and data structure. The game design document contains the intended product behavior and interaction design.
+
+After every major feature or milestone, update `memory-bank/@architecture.md` so it continues to describe the real implementation.
+
+These reading requirements are mandatory and apply before any code generation, not only before large changes.

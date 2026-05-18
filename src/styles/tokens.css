@@ -1,0 +1,18 @@
+:root {
+  --color-bg: #003153;
+  --color-surface: #062f4f;
+  --color-text: #f7f1e3;
+  --color-muted: #a7b0b8;
+  --color-gold: #d6a928;
+  --color-rivalry: #a63d40;
+  --color-ally: #2aae9f;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+}
+

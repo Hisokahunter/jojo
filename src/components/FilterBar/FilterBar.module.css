@@ -1,0 +1,52 @@
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: end;
+  padding: var(--space-4);
+  border-bottom: 1px solid rgb(247 241 227 / 16%);
+  background: rgb(0 31 54 / 84%);
+}
+
+.field {
+  display: grid;
+  gap: var(--space-1);
+  min-width: 9rem;
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+
+.field input,
+.field select {
+  min-height: 2.25rem;
+  border: 1px solid rgb(247 241 227 / 22%);
+  border-radius: var(--radius-sm);
+  background: rgb(247 241 227 / 9%);
+  color: var(--color-text);
+  padding: 0 var(--space-3);
+}
+
+.field option {
+  color: #101820;
+}
+
+.reset {
+  min-height: 2.25rem;
+  border: 1px solid rgb(214 169 40 / 64%);
+  border-radius: var(--radius-sm);
+  background: rgb(214 169 40 / 14%);
+  color: var(--color-text);
+  padding: 0 var(--space-4);
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .bar {
+    align-items: stretch;
+  }
+
+  .field {
+    flex: 1 1 8rem;
+  }
+}
+

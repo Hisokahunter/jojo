@@ -1,0 +1,39 @@
+---
+description: Follow the approved frontend stack and avoid unnecessary complexity.
+globs:
+  - "src/**/*"
+  - "package.json"
+  - "vite.config.*"
+alwaysApply: false
+---
+
+# Frontend Tech Stack Practices
+
+Use the approved first-version stack:
+
+- React + TypeScript
+- Vite
+- Cytoscape.js for graph rendering
+- Static JSON data
+- Zod for runtime data validation
+- CSS Modules plus shared CSS tokens
+- Vitest for unit tests
+- Playwright for end-to-end smoke tests
+
+Avoid adding these unless the user explicitly asks or the architecture document has been updated with the reason:
+
+- Next.js
+- Three.js
+- WebSocket
+- Backend services
+- Databases
+- Redux
+- Heavy animation libraries
+
+Prefer the simplest stable solution:
+
+- Static data before APIs.
+- CSS/Web Animations before animation libraries.
+- React Context and custom hooks before state-store libraries.
+- Cytoscape.js built-in graph behavior before custom graph engines.
+

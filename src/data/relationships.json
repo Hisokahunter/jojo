@@ -1,0 +1,93 @@
+[
+  {
+    "id": "jonathan-dio-rivalry",
+    "source": "jonathan-joestar",
+    "target": "dio-brando",
+    "type": "rivalry",
+    "label": "命运宿敌",
+    "part": [1],
+    "strength": 5,
+    "description": "二人的冲突构成乔斯达与布兰度百年命运纠缠的起点。"
+  },
+  {
+    "id": "jonathan-joseph-bloodline",
+    "source": "jonathan-joestar",
+    "target": "joseph-joestar",
+    "type": "blood",
+    "label": "乔斯达血脉",
+    "part": [1, 2, 3],
+    "strength": 4,
+    "description": "乔纳森的精神与血脉延续到后代，形成跨部传承。"
+  },
+  {
+    "id": "joseph-jotaro-bloodline",
+    "source": "joseph-joestar",
+    "target": "jotaro-kujo",
+    "type": "blood",
+    "label": "祖孙传承",
+    "part": [3],
+    "strength": 4,
+    "description": "乔瑟夫与承太郎共同参与星尘斗士旅程，连接两代乔斯达。"
+  },
+  {
+    "id": "jotaro-dio-rivalry",
+    "source": "jotaro-kujo",
+    "target": "dio-brando",
+    "type": "rivalry",
+    "label": "星尘决战",
+    "part": [3],
+    "strength": 5,
+    "description": "承太郎与迪奥的对决将百年命运推向替身时代的高潮。"
+  },
+  {
+    "id": "joseph-jotaro-ally",
+    "source": "joseph-joestar",
+    "target": "jotaro-kujo",
+    "type": "ally",
+    "label": "星尘同伴",
+    "part": [3],
+    "strength": 4,
+    "description": "两人作为星尘斗士的核心成员，一同追踪迪奥。"
+  },
+  {
+    "id": "dio-giorno-bloodline",
+    "source": "dio-brando",
+    "target": "giorno-giovanna",
+    "type": "blood",
+    "label": "复杂血脉",
+    "part": [5],
+    "strength": 3,
+    "description": "乔鲁诺的存在让乔斯达与布兰度的血脉关系变得更加复杂。"
+  },
+  {
+    "id": "gyro-johnny-mentor",
+    "source": "gyro-zeppeli",
+    "target": "johnny-joestar",
+    "type": "mentor",
+    "label": "旋回导师",
+    "part": [7],
+    "strength": 5,
+    "description": "杰洛引导乔尼理解旋回、成长与绕远路的意义。"
+  },
+  {
+    "id": "gyro-johnny-fate",
+    "source": "gyro-zeppeli",
+    "target": "johnny-joestar",
+    "type": "fate",
+    "label": "黄金旋回",
+    "part": [7],
+    "strength": 5,
+    "description": "黄金旋回将两人的旅程、选择和命运紧密连接。"
+  },
+  {
+    "id": "jonathan-johnny-parallel",
+    "source": "jonathan-joestar",
+    "target": "johnny-joestar",
+    "type": "parallel",
+    "label": "平行乔斯达",
+    "part": [1, 7],
+    "strength": 3,
+    "description": "两位乔斯达代表不同世界中对命运和成长的回应。"
+  }
+]
+

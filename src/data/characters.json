@@ -1,0 +1,87 @@
+[
+  {
+    "id": "jonathan-joestar",
+    "name": "乔纳森·乔斯达",
+    "romanizedName": "Jonathan Joestar",
+    "part": [1],
+    "family": "Joestar",
+    "role": "protagonist",
+    "stand": null,
+    "quote": "以绅士之心面对命运。",
+    "summary": "乔斯达家族命运的起点，用波纹与坚定意志奠定黄金精神的基调。",
+    "tags": ["Joestar", "黄金精神", "波纹"]
+  },
+  {
+    "id": "dio-brando",
+    "name": "迪奥·布兰度",
+    "romanizedName": "Dio Brando",
+    "part": [1, 3],
+    "family": "Brando",
+    "role": "antagonist",
+    "stand": "世界",
+    "quote": "支配命运的人不会停下脚步。",
+    "summary": "布兰度血脉的核心反派，与乔斯达家族形成跨越百年的命运纠缠。",
+    "tags": ["Brando", "反派", "命运宿敌"]
+  },
+  {
+    "id": "joseph-joestar",
+    "name": "乔瑟夫·乔斯达",
+    "romanizedName": "Joseph Joestar",
+    "part": [2, 3],
+    "family": "Joestar",
+    "role": "ally",
+    "stand": "隐者之紫",
+    "quote": "用机智绕开最危险的直线。",
+    "summary": "连接波纹时代与替身时代的乔斯达后代，以策略和经验维系家族传承。",
+    "tags": ["Joestar", "波纹", "星尘斗士"]
+  },
+  {
+    "id": "jotaro-kujo",
+    "name": "空条承太郎",
+    "romanizedName": "Jotaro Kujo",
+    "part": [3, 4, 6],
+    "family": "Joestar",
+    "role": "protagonist",
+    "stand": "白金之星",
+    "quote": "冷静判断，直接击穿命运。",
+    "summary": "星尘斗士的核心角色，以强大的替身能力和冷静判断对抗迪奥的阴影。",
+    "tags": ["Joestar", "星尘斗士", "替身"]
+  },
+  {
+    "id": "giorno-giovanna",
+    "name": "乔鲁诺·乔巴拿",
+    "romanizedName": "Giorno Giovanna",
+    "part": [5],
+    "family": "Brando",
+    "role": "protagonist",
+    "stand": "黄金体验",
+    "quote": "以黄金意志重塑生命。",
+    "summary": "乔斯达与布兰度血脉交汇的角色，将继承与反叛转化为新的黄金精神。",
+    "tags": ["Brando", "Joestar", "黄金精神"]
+  },
+  {
+    "id": "gyro-zeppeli",
+    "name": "杰洛·齐贝林",
+    "romanizedName": "Gyro Zeppeli",
+    "part": [7],
+    "family": "Zeppeli",
+    "role": "mentor",
+    "stand": "球破坏者",
+    "quote": "旋转会把远路变成答案。",
+    "summary": "齐贝林一系在平行世界中的关键导师，推动乔尼理解黄金旋回。",
+    "tags": ["Zeppeli", "黄金旋回", "导师"]
+  },
+  {
+    "id": "johnny-joestar",
+    "name": "乔尼·乔斯达",
+    "romanizedName": "Johnny Joestar",
+    "part": [7],
+    "family": "Joestar",
+    "role": "protagonist",
+    "stand": "牙",
+    "quote": "绕远路才抵达真正的捷径。",
+    "summary": "平行世界的乔斯达代表，在旅程中通过旋回与选择重新理解命运。",
+    "tags": ["Joestar", "黄金旋回", "平行世界"]
+  }
+]
+

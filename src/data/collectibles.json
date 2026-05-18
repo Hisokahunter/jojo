@@ -1,0 +1,93 @@
+[
+  {
+    "id": "torso",
+    "name": "躯干",
+    "englishName": "Torso",
+    "trigger": {
+      "type": "select-relationship",
+      "targetId": "jonathan-dio-rivalry"
+    },
+    "discovered": false
+  },
+  {
+    "id": "heart",
+    "name": "心脏",
+    "englishName": "Heart",
+    "trigger": {
+      "type": "select-relationship",
+      "targetId": "jonathan-joseph-bloodline"
+    },
+    "discovered": false
+  },
+  {
+    "id": "spine",
+    "name": "脊椎",
+    "englishName": "Spine",
+    "trigger": {
+      "type": "select-relationship",
+      "targetId": "gyro-johnny-fate"
+    },
+    "discovered": false
+  },
+  {
+    "id": "legs",
+    "name": "双腿",
+    "englishName": "Legs",
+    "trigger": {
+      "type": "select-character",
+      "targetId": "johnny-joestar"
+    },
+    "discovered": false
+  },
+  {
+    "id": "eyes",
+    "name": "双眼",
+    "englishName": "Eyes",
+    "trigger": {
+      "type": "select-character",
+      "targetId": "jotaro-kujo"
+    },
+    "discovered": false
+  },
+  {
+    "id": "head",
+    "name": "头部",
+    "englishName": "Head",
+    "trigger": {
+      "type": "select-character",
+      "targetId": "dio-brando"
+    },
+    "discovered": false
+  },
+  {
+    "id": "left-arm",
+    "name": "左臂",
+    "englishName": "Left Arm",
+    "trigger": {
+      "type": "activate-view",
+      "targetId": "family"
+    },
+    "discovered": false
+  },
+  {
+    "id": "right-arm",
+    "name": "右臂",
+    "englishName": "Right Arm",
+    "trigger": {
+      "type": "activate-view",
+      "targetId": "fate"
+    },
+    "discovered": false
+  },
+  {
+    "id": "ears",
+    "name": "双耳",
+    "englishName": "Ears",
+    "trigger": {
+      "type": "select-character",
+      "targetId": "giorno-giovanna"
+    },
+    "discovered": false
+  }
+]
+

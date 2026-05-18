@@ -1,0 +1,33 @@
+---
+description: Data, state, and Cytoscape graph implementation guidelines.
+globs:
+  - "src/data/**/*"
+  - "src/domain/**/*"
+  - "src/hooks/**/*"
+  - "src/components/GraphCanvas/**/*"
+alwaysApply: false
+---
+
+# Data, State, And Graph Rules
+
+## Data
+
+- Keep first-version data in static JSON files.
+- Split data by responsibility: `characters.json`, `relationships.json`, `collectibles.json`.
+- Validate JSON through Zod before using it in UI.
+- Keep stable string IDs for characters, relationships, and collectibles.
+
+## State
+
+- Keep React state small and explicit.
+- Use React Context plus custom hooks for shared state in the first version.
+- Store discovered collectibles in `localStorage`.
+- Do not introduce server persistence unless architecture is updated first.
+
+## Graph
+
+- Keep Cytoscape lifecycle and event binding inside `GraphCanvas`.
+- Convert app data into Cytoscape elements through `domain/graph.ts`.
+- Keep Cytoscape styling in a separate graph style module.
+- Components outside `GraphCanvas` should communicate through typed state/events, not by directly mutating the Cytoscape instance.
+
