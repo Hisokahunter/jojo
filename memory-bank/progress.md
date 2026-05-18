@@ -77,7 +77,9 @@
   - Validation: `npm run build` passed.
   - Validation: `npm test` passed with 5 test files and 10 tests.
   - Validation: `npm run test:e2e` passed with 4 desktop/mobile smoke tests.
-  - Validation pending: push workflow to GitHub and confirm Pages deployment.
+  - Follow-up: First GitHub Actions run failed during dependency installation because the workflow used a broad Node 22 version while dependencies require Node 22.12+ or 24+.
+  - Fix: Pin GitHub Actions to Node 24.
+  - Validation pending: push workflow fix to GitHub and confirm Pages deployment.
 
 ## Remaining
 
