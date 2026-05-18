@@ -81,6 +81,8 @@
   - Fix: Pin GitHub Actions to Node 24.
   - Follow-up: Second GitHub Actions run still failed during dependency installation; the lockfile had dependency tarball URLs pinned to a regional npm mirror.
   - Fix: Repoint lockfile resolved URLs to the official npm registry.
+  - Follow-up: Third GitHub Actions run still failed during dependency installation. Detailed logs were not available through unauthenticated API access.
+  - Fix: Switch workflow to deploy the committed `dist` artifact directly, avoiding dependency installation on the GitHub runner.
   - Validation pending: push workflow fix to GitHub and confirm Pages deployment.
 
 ## Remaining

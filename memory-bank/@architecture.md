@@ -315,6 +315,6 @@ Verification status:
 Deployment:
 
 - Free hosting target: GitHub Pages.
-- Deployment method: GitHub Actions workflow at `.github/workflows/deploy.yml`.
+- Deployment method: GitHub Actions workflow at `.github/workflows/deploy.yml`, uploading the committed `dist` artifact.
 - Vite base path: `/jojo/`, matching the repository name for project Pages.
 - Production URL after Pages is enabled and the workflow succeeds: `https://hisokahunter.github.io/jojo/`.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 12 68 68" role="img" aria-label="Johnny Joestar original avatar">
+  <rect width="96" height="96" rx="48" fill="#1d315f"/>
+  <circle cx="48" cy="45" r="18" fill="#e7bd91"/>
+  <path d="M25 34c10-17 35-18 47 0-13-2-22 1-29 9-4-5-10-8-18-9Z" fill="#d8b04f"/>
+  <path d="M24 28h48l-6 12H30l-6-12Z" fill="#4e74c4"/>
+  <path d="M40 27l8-7 8 7" stroke="#d6a928" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26 79c5-16 14-25 22-25s17 9 22 25" fill="#4e74c4"/>
+  <path d="M38 60c7 4 13 4 20 0" stroke="#1d315f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="40" cy="46" r="2.3" fill="#1d315f"/>
+  <circle cx="56" cy="46" r="2.3" fill="#1d315f"/>
+</svg>

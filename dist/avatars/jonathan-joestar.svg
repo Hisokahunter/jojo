@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 12 68 68" role="img" aria-label="Jonathan Joestar original avatar">
+  <rect width="96" height="96" rx="48" fill="#0a4b68"/>
+  <circle cx="48" cy="42" r="20" fill="#f3d3a1"/>
+  <path d="M24 36c8-18 40-22 50 0-10-8-26-9-50 0Z" fill="#2b221f"/>
+  <path d="M30 78c4-16 12-24 18-24s14 8 18 24" fill="#2aae9f"/>
+  <path d="M43 29h10l3 9-8 6-8-6 3-9Z" fill="#d6a928"/>
+  <path d="M33 63h30" stroke="#d6a928" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="40" cy="43" r="2.5" fill="#10202c"/>
+  <circle cx="56" cy="43" r="2.5" fill="#10202c"/>
+</svg>
