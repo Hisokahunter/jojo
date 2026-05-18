@@ -79,6 +79,8 @@
   - Validation: `npm run test:e2e` passed with 4 desktop/mobile smoke tests.
   - Follow-up: First GitHub Actions run failed during dependency installation because the workflow used a broad Node 22 version while dependencies require Node 22.12+ or 24+.
   - Fix: Pin GitHub Actions to Node 24.
+  - Follow-up: Second GitHub Actions run still failed during dependency installation; the lockfile had dependency tarball URLs pinned to a regional npm mirror.
+  - Fix: Repoint lockfile resolved URLs to the official npm registry.
   - Validation pending: push workflow fix to GitHub and confirm Pages deployment.
 
 ## Remaining
